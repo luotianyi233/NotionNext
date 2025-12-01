@@ -8,7 +8,7 @@ const CONFIG = {
   // 英雄区块导航
   PROXIO_HERO_ENABLE: true, // 开启英雄区
   PROXIO_HERO_TITLE_1: 'This website is currently undermaintance.', // 英雄区文字
-  PROXIO_HERO_TITLE_2: 'My dream is to create geams that millions of people will love', // 英雄区文字
+  PROXIO_HERO_TITLE_2: 'My dream is to create games that millions of people will love', // 英雄区文字
   // 英雄区两个按钮，如果TEXT留空则隐藏按钮
   PROXIO_HERO_BUTTON_1_TEXT: 'View All My Projects', // 英雄区按钮
   PROXIO_HERO_BUTTON_1_URL:
@@ -180,7 +180,7 @@ const CONFIG = {
   PROXIO_ABOUT_TITLE: 'About me',
   PROXIO_ABOUT_TEXT_1: 'I am an Game Designer Focused on Systems, Interaction and Play Experience',
   PROXIO_ABOUT_TEXT_2:
-    'With a background in Digital Media Technology and hands-on experience across Unity, Unreal Engine, and board game systems, I design thoughtful mechanics and player-centered gameplay loops.  \nMy work spans system design, gameplay prototyping, blueprint scripting, level design, and narrative interaction, aiming to create experiences that are mechanically engaging and emotionally resonant.',
+    'With a background in Digital Media Technology and hands-on experience across Unity, Unreal Engine, and board game systems, I design thoughtful mechanics and player-centered gameplay loops. My work spans system design, gameplay prototyping, blueprint scripting, level design, and narrative interaction, aiming to create experiences that are mechanically engaging and emotionally resonant.',
   PROXIO_ABOUT_PHOTO_URL: '/avatar.png',
   PROXIO_ABOUT_KEY_1: 'Game Design Experience (hrs)',
   PROXIO_ABOUT_VAL_1: '4+',
