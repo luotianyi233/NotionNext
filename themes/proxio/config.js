@@ -11,8 +11,7 @@ const CONFIG = {
   PROXIO_HERO_TITLE_2: 'My goal is to dedicate all my life to creating engaging games that millions of people love.', // 英雄区文字
   // 英雄区两个按钮，如果TEXT留空则隐藏按钮
   PROXIO_HERO_BUTTON_1_TEXT: 'View All My Projects', // 英雄区按钮
-  PROXIO_HERO_BUTTON_1_URL: '/archive',
-    '', // 英雄区按钮
+  PROXIO_HERO_BUTTON_1_URL: '/archive', // 英雄区按钮
   PROXIO_HERO_BUTTON_2_TEXT: '', // 英雄区按钮
   PROXIO_HERO_BUTTON_2_URL: 'https://github.com/tangly1024/NotionNext', // 英雄区按钮
   PROXIO_HERO_BUTTON_2_ICON: '/images/starter/github-mark.svg', // 英雄区按钮2的图标，不需要则留空
