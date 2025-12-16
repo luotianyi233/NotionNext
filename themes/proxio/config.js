@@ -181,7 +181,7 @@ const CONFIG = {
   PROXIO_ABOUT_TEXT_1: 'I am a Game Designer Focused on Systems, Interaction and Play Experience',
   PROXIO_ABOUT_TEXT_2:
     'With a background in Digital Media Technology and hands-on experience across Unity, Unreal Engine, and board game systems, I design thoughtful mechanics and player-centered gameplay loops. My work spans system design, gameplay prototyping, blueprint scripting, level design, and narrative interaction, aiming to create experiences that are mechanically engaging and emotionally resonant.',
-  PROXIO_ABOUT_PHOTO_URL: '/Ricky.png',
+  PROXIO_ABOUT_PHOTO_URL: '/Ricky.jpg',
   PROXIO_ABOUT_KEY_1: 'Game Design Experience (yrs)',
   PROXIO_ABOUT_VAL_1: '4+',
   PROXIO_ABOUT_KEY_2: 'Engines Worked In',
