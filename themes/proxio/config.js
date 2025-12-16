@@ -8,10 +8,10 @@ const CONFIG = {
   // 英雄区块导航
   PROXIO_HERO_ENABLE: true, // 开启英雄区
   PROXIO_HERO_TITLE_1: 'This website is currently undermaintance.', // 英雄区文字
-  PROXIO_HERO_TITLE_2: 'My dream is to create games that millions of people will love', // 英雄区文字
+  PROXIO_HERO_TITLE_2: 'My goal is to dedicate all my life to creating engaging games that millions of people love.', // 英雄区文字
   // 英雄区两个按钮，如果TEXT留空则隐藏按钮
   PROXIO_HERO_BUTTON_1_TEXT: 'View All My Projects', // 英雄区按钮
-  PROXIO_HERO_BUTTON_1_URL:
+  PROXIO_HERO_BUTTON_1_URL: '/archive',
     '', // 英雄区按钮
   PROXIO_HERO_BUTTON_2_TEXT: '', // 英雄区按钮
   PROXIO_HERO_BUTTON_2_URL: 'https://github.com/tangly1024/NotionNext', // 英雄区按钮
@@ -60,7 +60,7 @@ const CONFIG = {
     'From puzzle pacing to interaction rules, I polish every detail to ensure coherent player experience and emotional impact.',
 
   PROXIO_FEATURE_BUTTON_TEXT: 'View All My Projects', // 按钮文字
-  PROXIO_FEATURE_BUTTON_URL: '', // 按钮跳转
+  PROXIO_FEATURE_BUTTON_URL: '/archive', // 按钮跳转
 
   // 首页生涯区块
   PROXIO_CAREER_ENABLE: true, // 区块开关
@@ -178,7 +178,7 @@ const CONFIG = {
   // 关于作者区块
   PROXIO_ABOUT_ENABLE: true, // 关于作者区块区块开关
   PROXIO_ABOUT_TITLE: 'About me',
-  PROXIO_ABOUT_TEXT_1: 'I am an Game Designer Focused on Systems, Interaction and Play Experience',
+  PROXIO_ABOUT_TEXT_1: 'I am a Game Designer Focused on Systems, Interaction and Play Experience',
   PROXIO_ABOUT_TEXT_2:
     'With a background in Digital Media Technology and hands-on experience across Unity, Unreal Engine, and board game systems, I design thoughtful mechanics and player-centered gameplay loops. My work spans system design, gameplay prototyping, blueprint scripting, level design, and narrative interaction, aiming to create experiences that are mechanically engaging and emotionally resonant.',
   PROXIO_ABOUT_PHOTO_URL: '/avatar.png',
@@ -191,7 +191,7 @@ const CONFIG = {
   PROXIO_ABOUT_KEY_4: 'Game Experience (hrs)',
   PROXIO_ABOUT_VAL_4: ' 10000+',
 
-  PROXIO_ABOUT_BUTTON_URL: '/about',
+  PROXIO_ABOUT_BUTTON_URL: 'https://www.linkedin.com/in/ruiqi-wang39',
   PROXIO_ABOUT_BUTTON_TEXT: 'About me',
 
   // 横向滚动文字
@@ -213,33 +213,33 @@ const CONFIG = {
       menus: [
         {
           title: '',
-          href: 'https://blog.tangly1024.com'
+          href: ''
         },
         {
           title: '',
-          href: 'https://www.tangly1024.com'
+          href: ''
         }
       ]
     },
     {
       name: '',
       menus: [
-        { title: '', href: 'https://github.com/tangly1024/NotionNext' },
+        { title: '', href: '' },
         {
           title: '',
-          href: 'https://docs.tangly1024.com/article/how-to-develop-with-notion-next'
+          href: ''
         },
         {
           title: '',
-          href: 'https://github.com/tangly1024/NotionNext/issues/new/choose'
+          href: ''
         },
         {
           title: '',
-          href: 'https://github.com/tangly1024/NotionNext/discussions'
+          href: ''
         },
         {
           title: '',
-          href: 'https://blog.tangly1024.com/about'
+          href: ''
         }
       ]
     }
@@ -263,8 +263,8 @@ const CONFIG = {
 
   // 页面底部的行动呼吁模块
   PROXIO_CTA_ENABLE: false,
-  PROXIO_CTA_TITLE: '与我建立联系',
-  PROXIO_CTA_TITLE_2: '让我们立刻启动您的项目',
+  PROXIO_CTA_TITLE: '',
+  PROXIO_CTA_TITLE_2: '',
   PROXIO_CTA_DESCRIPTION:
     '访问NotionNext的操作文档，我们提供了详细的教程，帮助你即刻搭建站点',
   PROXIO_CTA_BUTTON: true, // 是否显示按钮
