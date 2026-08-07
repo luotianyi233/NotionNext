@@ -244,6 +244,8 @@ const SEO = props => {
           crossOrigin='anonymous'
         />
       )}
+      {/* 预加载关键资源 */}
+      {/* <link rel='preload' href='/fonts/inter-var.woff2' as='font' type='font/woff2' crossOrigin='anonymous' /> */}
 
       {children}
     </Head>
