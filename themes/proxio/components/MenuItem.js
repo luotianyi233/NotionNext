@@ -32,7 +32,7 @@ export const MenuItem = ({ link, isOpen, toggleOpen }) => {
           <SmartLink
             href={link?.href}
             target={link?.target}
-            className={`ud-menu-scroll mx-8 flex py-2 text-sm font-medium text-dark group-hover:text-primary dark:text-white lg:mr-0 lg:inline-flex lg:px-0 lg:py-6 ${
+            className={`ud-menu-scroll mx-8 flex py-2 text-sm font-medium text-white group-hover:text-primary dark:text-white lg:text-dark lg:mr-0 lg:inline-flex lg:px-0 lg:py-6 ${
               router.route === '/'
                 ? 'lg:text-white lg:group-hover:text-white'
                 : ''
@@ -48,7 +48,7 @@ export const MenuItem = ({ link, isOpen, toggleOpen }) => {
         <li className='submenu-item group relative whitespace-nowrap'>
           <button
             onClick={toggleSubMenu}
-            className={`cursor-pointer relative px-8 flex items-center justify-between py-2 text-sm font-medium text-dark group-hover:text-primary dark:text-white lg:ml-8 lg:mr-0 lg:inline-flex lg:py-6 lg:pl-0 lg:pr-4 ${
+            className={`cursor-pointer relative px-8 flex items-center justify-between py-2 text-sm font-medium text-white group-hover:text-primary dark:text-white lg:text-dark lg:ml-8 lg:mr-0 lg:inline-flex lg:py-6 lg:pl-0 lg:pr-4 ${
               router.route === '/'
                 ? 'lg:text-white lg:group-hover:text-white'
                 : ''
