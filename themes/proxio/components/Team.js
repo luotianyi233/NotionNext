@@ -15,7 +15,7 @@ export const Team = () => {
             {/* <!-- ====== Team Section Start --> */}
             <section
                 id='team'
-                className='overflow-hidden pb-12 pt-20 lg:pb-[90px] lg:pt-[120px]'>
+                className='bg-black overflow-hidden pb-12 pt-20 lg:pb-[90px] lg:pt-[120px]'>
                 <div className='container mx-auto wow fadeInUp' data-wow-delay='.2s'>
                     <div className='flex flex-col md:flex-row -mx-4 justify-between'>
                         {/* 左边肖像图 */}

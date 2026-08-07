@@ -33,7 +33,7 @@ export const Blog = ({ posts }) => {
   return (
     <>
       {/* <!-- ====== Blog Section Start --> */}
-      <section className='pt-20 dark:bg-dark lg:pt-[120px]'>
+      <section className='bg-black pt-20 dark:bg-black lg:pt-[120px]'>
         <div className='container mx-auto'>
           {/* 区块标题文字 */}
           <div
@@ -88,7 +88,7 @@ export const Blog = ({ posts }) => {
                           className={`absolute inset-0 transition-all duration-500 group-hover:opacity-50 group-hover:bg-black ${
                             shouldShowCover
                               ? 'opacity-0'
-                              : 'bg-gray-100 dark:bg-hexo-black-gray'
+                              : 'bg-transparent dark:bg-transparent'
                           }`}
                         />
                         {/* 鼠标悬停时显示的文字内容 */}
