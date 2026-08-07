@@ -71,7 +71,7 @@ export const MenuItem = ({ link, isOpen, toggleOpen }) => {
 
           {/* 子菜单 */}
           <div
-            className={`submenu dark:border-gray-600 relative left-0 top-full w-[250px] rounded-sm bg-white p-4 transition-all duration-300 dark:bg-dark-2 lg:absolute lg:shadow-lg ${
+            className={`submenu dark:border-gray-600 relative left-0 top-full w-[250px] rounded-sm bg-black/80 p-4 transition-all duration-300 dark:bg-black/80 lg:absolute lg:shadow-lg ${
               open
                 ? 'block opacity-100 visible'
                 : 'hidden opacity-0 invisible'
@@ -81,7 +81,7 @@ export const MenuItem = ({ link, isOpen, toggleOpen }) => {
                 key={index}
                 href={sLink.href}
                 target={link?.target}
-                className='block rounded px-4 py-[10px] text-sm text-body-color hover:text-primary dark:text-dark-6 dark:hover:text-primary'>
+                className='block rounded px-4 py-[10px] text-sm text-white hover:text-primary dark:text-white dark:hover:text-primary'>
                 {/* 子菜单 SubMenuItem */}
                 <span className='text-md ml-2 whitespace-nowrap'>
                   {link?.icon && <i className={sLink.icon + ' mr-2 my-auto'} />}{' '}
