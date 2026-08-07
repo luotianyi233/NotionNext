@@ -33,7 +33,7 @@ export const Blog = ({ posts }) => {
   return (
     <>
       {/* <!-- ====== Blog Section Start --> */}
-      <section className='bg-white pt-20 dark:bg-dark lg:pt-[120px]'>
+      <section className='pt-20 dark:bg-dark lg:pt-[120px]'>
         <div className='container mx-auto'>
           {/* 区块标题文字 */}
           <div

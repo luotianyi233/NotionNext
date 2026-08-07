@@ -81,14 +81,24 @@ const CONFIG = {
       text: 'During my undergraduate studies, I built a strong foundation in game development, system design, and computer graphics. I led multiple team projects, explored gameplay prototyping, and developed a passion for creating mechanics-driven and emotionally engaging interactive experiences.'
     },
     {
-      title: 'Morefun Studios, Tencent Games — Game Client Development Intern',
+      title: 'Morefun Studios, Tencent Mofang Studio — Game Client Development Intern',
       bio: '2024',
-      text: 'At Tencent Morefun Studios, I contributed to Unity-based gameplay systems, implemented small-scale features, and collaborated closely with designers and programmers. I also independently designed and built a two-player co-op puzzle prototype, strengthening my understanding of production workflows and cross-disciplinary collaboration.'
+      text: 'During my internship mini-project, I built a 3D two-player cooperative puzzle experience centered on rope mechanics, designing and leading the core gameplay systems including rope physics, collision states, and synchronized collaboration mechanics. I developed modular gameplay features and level flow, and iterated rapidly based on playtest feedback and team reviews.\n\nI used standardized game design documentation and configuration tables for work, covering gameplay attributes, combat rules, and system workflows.'
     },
     {
       title: 'Northeastern University — M.S. in Game Science and Design',
       bio: '2025 – Present',
       text: 'Currently pursuing graduate studies focused on gameplay systems, research-driven design, and prototyping across Unity and Unreal Engine. My work explores mechanical depth, narrative pacing, and player psychology, supported by hands-on coursework, collaborative projects, and iterative design methods.'
+    },
+    {
+      title: 'Lost Light @ NetEase Interactive Entertainment Singularity Division — Game Planner Intern (Gameplay / Monetization / Systems)',
+      bio: '2026.06 – 2026.08',
+      text: 'Participated in SS9 season external publicity gameplay development tracking, attended cross-functional meetings on in-match gameplay, feedback, and acceptance issues, assisted in bug reporting and acceptance closure, and supported the launch and post-launch player content dissemination of the season\'s core gameplay. The new season launch saw a year-over-year revenue increase of approximately 48%, with notable improvements in activity, ARPU, payment rate, and retention.\n\nIndependently led the design and development of subsequent season same-level structured gameplay, replacing the core search-fight-retreat experience with a search-focused interaction. I advanced the concept from fuzzy idea to reviewable plan, and built UE5 rapid whitebox gameplay prototypes for season currency, costume display, player social features, and in-match mechanics. I also delivered design documentation, rules flow, art/3C/combat/program requirements breakdown, and supporting requirement documents.\n\nUsed internal AI tools in planning workflows to support gameplay brainstorming, behavior tree and flowchart organization, requirement drafting, and configuration field management, and leveraged AI tools to quickly generate gameplay presentation materials and whitebox prototypes. I also used Midjourney to create art references, improving early concept communication and multi-pipeline alignment efficiency.\n\nFor SS10 season external publicity key gameplay, I designed supporting event gameplay with goals of social fun and helping players get started with new gameplay, completing the event design proposal, requirement breakdown, initial configuration fields, and ticket scheduling preparation.'
+    },
+    {
+      title: 'Tencent TiMi Studio Group — Systems & Monetization Planning Intern',
+      bio: '2026.08 – 2026.09',
+      text: 'Served as a systems and monetization planning intern, focusing on gameplay economics, system design, and support for live game feature planning.'
     }
   ],
 

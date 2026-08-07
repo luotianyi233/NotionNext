@@ -19,7 +19,7 @@ export const Team = () => {
                 <div className='container mx-auto wow fadeInUp' data-wow-delay='.2s'>
                     <div className='flex flex-col md:flex-row -mx-4 justify-between'>
                         {/* 左边肖像图 */}
-                        <div className='mx-6 mb-6 max-w-96 border-gray-200 dark:border-[#333333] dark:bg-dark-1 border rounded-2xl overflow-hidden'>
+                        <div className='mx-6 mb-6 max-w-96 border-gray-200 dark:border-[#333333] bg-transparent border rounded-2xl overflow-hidden'>
                             <LazyImage alt={AUTHOR} src={PROXIO_ABOUT_PHOTO_URL} className='object-cover h-full' />
                         </div>
                         {/* 右侧文字说明 */}
