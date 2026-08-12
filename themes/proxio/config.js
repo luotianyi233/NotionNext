@@ -73,7 +73,7 @@ const CONFIG = {
   PROXIO_CAREER_TITLE: 'Career',
   PROXIO_CAREER_TEXT: 'Here is an overview of my academic and professional journey',
 
-  // 生涯内容卡牌 ，title是标题 ，bio是备注，text是详情
+  // 生涯内容卡牌 ，title是标题 ，bio是备注，text是详情，videoUrl是可选的 YouTube 链接
   PROXIO_CAREERS: [
     {
       title: 'Hangzhou Dianzi University — B.Eng. in Digital Media Technology',
@@ -83,7 +83,8 @@ const CONFIG = {
     {
       title: 'The Hidden Ones @Tencent Games — Game Client Development Intern',
       bio: '2024',
-      text: 'During my internship mini-project, I built a 3D two-player cooperative puzzle experience centered on rope mechanics, designing and leading the core gameplay systems including rope physics, collision states, and synchronized collaboration mechanics. I developed modular gameplay features and level flow, and iterated rapidly based on playtest feedback and team reviews.\n\nI used standardized game design documentation and configuration tables for work, covering gameplay attributes, combat rules, and system workflows.'
+      text: 'During my internship mini-project, I built a 3D two-player cooperative puzzle experience centered on rope mechanics, designing and leading the core gameplay systems including rope physics, collision states, and synchronized collaboration mechanics. I developed modular gameplay features and level flow, and iterated rapidly based on playtest feedback and team reviews.\n\nI used standardized game design documentation and configuration tables for work, covering gameplay attributes, combat rules, and system workflows.',
+      videoUrl: 'https://youtu.be/umyn1D0EzSg?si=9aK2fgLblw-RrC-Q'
     },
     {
       title: 'Northeastern University — M.S. in Game Science and Design',
@@ -93,12 +94,14 @@ const CONFIG = {
     {
       title: 'Lost Light @Netease Games — Game Designer Intern (System/Monetization/Systems)',
       bio: '2026.06 – 2026.08',
-      text: 'During SS9 external promotion, I tracked key season gameplay features, participated in cross-functional meetings on in-match systems, performance feedback, and acceptance issues, and supported bug reporting and acceptance closure to help launch critical features on schedule and enable follow-on player content dissemination. I then independently led subsequent season structured gameplay design, replacing the search-fight-retreat experience with an improved search interaction and building UE5 rapid whitebox prototypes for season currency, costume display, social features, and in-match gameplay. For SS10 external promotion, I designed event gameplay focused on social engagement and new-player onboarding. The release drove ~48% year-on-year revenue growth and delivered clear uplifts in activity, ARPU, payment rate, and retention.'
+      text: 'During SS9 external promotion, I tracked key season gameplay features, participated in cross-functional meetings on in-match systems, performance feedback, and acceptance issues, and supported bug reporting and acceptance closure to help launch critical features on schedule and enable follow-on player content dissemination. I then independently led subsequent season structured gameplay design, replacing the search-fight-retreat experience with an improved search interaction and building UE5 rapid whitebox prototypes for season currency, costume display, social features, and in-match gameplay. For SS10 external promotion, I designed event gameplay focused on social engagement and new-player onboarding. The release drove ~48% year-on-year revenue growth and delivered clear uplifts in activity, ARPU, payment rate, and retention.',
+      videoUrl: 'https://youtu.be/U-SIltkfXzc?si=EoajyEgXTjFhvOhr'
     },
     {
       title: 'Nizhan Future @Tencent Games — Game Designer Intern (System/Monetization)',
       bio: '2026.08 – 2026.09',
-      text: ''
+      text: '',
+      videoUrl: 'https://youtu.be/vELf4kX-DyA?si=cahjT-YG4uJ8tCeG'
     }
   ],
 
